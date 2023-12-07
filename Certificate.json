@@ -27,14 +27,14 @@
 		"@context":{
 			"level": "xsd:string",
 			"major": "xsd:string",
-			"dateOfCompletion": "xsd:string",
+			"dateOfCompletion": "xsd:string"
 		}
 	},
 	"signatoryAuthentication": {
 		"@id": "signatoryAuthentication",
 		"@context":{
 			"signature": "xsd:string",
-			"name": "xsd:string",
+			"name": "xsd:string"
 		}
 	}
     }
