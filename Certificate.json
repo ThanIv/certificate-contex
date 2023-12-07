@@ -5,7 +5,7 @@
     },
     "https://www.w3.org/ns/odrl.jsonld",
     {
-      "issuer": "xsd:string",
+      "institute": "xsd:string",
       "documentName": "xsd:string",
       "issueDateAndTime": "xsd:string",
       "certificateId": "xsd:string",
