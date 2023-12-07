@@ -1,42 +1,67 @@
 {
-  "@context":[
+  "@context": [
     {
-        "@version": 1
+      "@version": 1.1
     },
     "https://www.w3.org/ns/odrl.jsonld",
     {
-	"issuer": "xsd:string",
-	"documentName": "xsd:string",
-	"issueDateAndTime": "xsd:string",
-	"certificateId": "xsd:string",
-	"recipientDetails": {
-	    "@id": "recipientDetails",
-	    "@context":{
-		"fname": "xsd:string",
-		"lname": "xsd:string",
-		"fnameEN": "xsd:string",
-		"lnameEN": "xsd:string",
-		"sex": "xsd:string",
-		"nationality": "xsd:string",
-		"dateOfBirth": "xsd:string",
-		"placeOfBirth": "xsd:string"
-	    }
-	},
-	"certificateDetails": {
-		"@id": "certificateDetails",
-		"@context":{
-		    "level": "xsd:string",
-		    "major": "xsd:string",
-		    "dateOfCompletion": "xsd:string"
-		}
-	},
-	"signatoryAuthentication": {
-		"@id": "signatoryAuthentication",
-		"@context":{
-		    "signature": "xsd:string",
-		    "name": "xsd:string"
-		}
-	}
+      "id": "@id",
+      "name": "xsd:string",
+      "date": "xsd:string",
+      "customerId": "xsd:string",
+      "terms": "xsd:string",
+      "subtotal": "xsd:string",
+      "tax": "xsd:string",
+      "taxTotal": "xsd:string",
+      "total": "xsd:string",
+      "billFrom": {
+        "@id": "billFrom",
+        "@context": {
+          "name": "xsd:string",
+          "streetAddress": "xsd:string",
+          "city": "xsd:string",
+          "postalCode": "xsd:string",
+          "phoneNumber": "xsd:string"
+        }
+      },
+      "billTo": {
+        "@id": "billTo",
+        "@context": {
+          "name": "xsd:string",
+          "company": {
+            "@id": "company",
+            "@context": {
+              "name": "xsd:string",
+              "streetAddress": "xsd:string",
+              "city": "xsd:string",
+              "postalCode": "xsd:string",
+              "phoneNumber": "xsd:string"
+            }
+          },
+          "email": "xsd:string"
+        }
+      },
+      "billableItems": {
+        "@id": "billableItems",
+        "@container": "@set",
+        "@context": {
+          "description": "xsd:string",
+          "quantity": "xsd:string",
+          "unitPrice": "xsd:string",
+          "amount": "xsd:string"
+        }
+      },
+      "links": {
+        "@id": "links",
+        "@context": {
+          "self": {
+            "@id": "self",
+            "@context": {
+              "href": "xsd:string"
+            }
+          }
+        }
+      }
     }
   ]
 }
