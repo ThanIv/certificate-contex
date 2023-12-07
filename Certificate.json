@@ -19,7 +19,7 @@
 					"sex": "xsd:string",
 					"nationality": "xsd:string",
 					"dateOfBirth": "xsd:string",
-					"placeOfBirth": "xsd:string",
+					"placeOfBirth": "xsd:string"
 				}
 			},
 			"certificateDetails": {
@@ -27,14 +27,14 @@
 				"@context":{
 					"level": "xsd:string",
 					"major": "xsd:string",
-					"dateOfCompletion": "xsd:string",
+					"dateOfCompletion": "xsd:string"
 				}
 			},
 			"signatoryAuthentication": {
 				"@id": "signatoryAuthentication",
 				"@context":{
 					"signature": "xsd:string",
-					"name": "xsd:string",
+					"name": "xsd:string"
 				}
 			},
 		}
