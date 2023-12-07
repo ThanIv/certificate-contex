@@ -1,7 +1,7 @@
 {
   "@context":[
     {
-        "@version": 1,
+        "@version": 1
     },
     "https://www.w3.org/ns/odrl.jsonld",
     {
@@ -21,7 +21,7 @@
 		"dateOfBirth": "xsd:string",
 		"placeOfBirth": "xsd:string"
 	    }
-	    },
+	},
 	"certificateDetails": {
 		"@id": "certificateDetails",
 		"@context":{
@@ -36,7 +36,7 @@
 		    "signature": "xsd:string",
 		    "name": "xsd:string"
 		}
-	},
+	}
     }
   ]
 }
