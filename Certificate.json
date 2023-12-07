@@ -21,7 +21,7 @@
 		"dateOfBirth": "xsd:string",
 		"placeOfBirth": "xsd:string",
 	}
-	},
+      },
       "certificateDetails": {
 		"@id": "certificateDetails",
 		"@context":{
