@@ -1,42 +1,42 @@
 {
-	"@context":[
-		{
-			"@version": 1,
-		},
-		"https://www.w3.org/ns/odrl.jsonld",
-		{
-			"issuer": "xsd:string",
-			"documentName": "xsd:string",
-			"issueDateAndTime": "xsd:string",
-			"certificateId": "xsd:string",
-			"recipientDetails": {
-				"@id": "recipientDetails",
-				"@context":{
-					"fname": "xsd:string",
-					"lname": "xsd:string",
-					"fnameEN": "xsd:string",
-					"lnameEN": "xsd:string",
-					"sex": "xsd:string",
-					"nationality": "xsd:string",
-					"dateOfBirth": "xsd:string",
-					"placeOfBirth": "xsd:string"
-				}
-			},
-			"certificateDetails": {
-				"@id": "certificateDetails",
-				"@context":{
-					"level": "xsd:string",
-					"major": "xsd:string",
-					"dateOfCompletion": "xsd:string"
-				}
-			},
-			"signatoryAuthentication": {
-				"@id": "signatoryAuthentication",
-				"@context":{
-					"signature": "xsd:string",
-					"name": "xsd:string"
-				}
-			},
+  "@context":[
+    {
+        "@version": 1,
+    },
+    "https://www.w3.org/ns/odrl.jsonld",
+    {
+	"issuer": "xsd:string",
+	"documentName": "xsd:string",
+	"issueDateAndTime": "xsd:string",
+	"certificateId": "xsd:string",
+	"recipientDetails": {
+	    "@id": "recipientDetails",
+	    "@context":{
+		"fname": "xsd:string",
+		"lname": "xsd:string",
+		"fnameEN": "xsd:string",
+		"lnameEN": "xsd:string",
+		"sex": "xsd:string",
+		"nationality": "xsd:string",
+		"dateOfBirth": "xsd:string",
+		"placeOfBirth": "xsd:string"
+	    }
+	    },
+	"certificateDetails": {
+		"@id": "certificateDetails",
+		"@context":{
+		    "level": "xsd:string",
+		    "major": "xsd:string",
+		    "dateOfCompletion": "xsd:string"
 		}
-	]
+	},
+	"signatoryAuthentication": {
+		"@id": "signatoryAuthentication",
+		"@context":{
+		    "signature": "xsd:string",
+		    "name": "xsd:string"
+		}
+	},
+    }
+  ]
 }
