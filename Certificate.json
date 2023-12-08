@@ -19,7 +19,7 @@
 		"sex": "xsd:string",
 		"nationality": "xsd:string",
 		"dateOfBirth": "xsd:string",
-		"placeOfBirth": "xsd:string",
+		"placeOfBirth": "xsd:string"
 	}
       },
       "certificateDetails": {
