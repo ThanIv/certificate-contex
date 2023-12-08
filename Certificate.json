@@ -13,13 +13,13 @@
         "@id": "recipientDetails",
         "@context": {
           "fname": "xsd:string",
-					"lname": "xsd:string",
-					"fnameEN": "xsd:string",
-					"lnameEN": "xsd:string",
-					"sex": "xsd:string",
-					"nationality": "xsd:string",
-					"dateOfBirth": "xsd:string",
-					"placeOfBirth": "xsd:string"
+	  "lname": "xsd:string",
+	  "fnameEN": "xsd:string",
+	  "lnameEN": "xsd:string",
+	  "sex": "xsd:string",
+	  "nationality": "xsd:string",
+	  "dateOfBirth": "xsd:string",
+	  "placeOfBirth": "xsd:string"
         }
     }
   ]
